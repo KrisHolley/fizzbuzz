@@ -1,4 +1,4 @@
- 1.upto(100) do |x|
+(1..100).each do |x|
  	if x.odd?
  		puts"odd"
  	else
